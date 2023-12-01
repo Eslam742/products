@@ -1,0 +1,54 @@
+         :root {
+            --color-primary: rgb(33, 142, 185);
+            --color-secondary: #bbb;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: "Montserrat";
+        }
+
+        html,
+        body {
+            max-width: 100vw;
+            overflow-x: hidden;
+            background-color: #111;
+            color: #bbb;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            html {
+                color-scheme: dark;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        .light {
+            background-color: #fff;
+            color: #111;
+        }
+
+        .dark {
+            background-color: #111;
+            color: #bbb;
+        }
+
+        .theme {
+            transition: .7s all ease-in-out;
+        }

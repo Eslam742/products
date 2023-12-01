@@ -1,0 +1,35 @@
+.title {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.imageContainer {
+    position: relative;
+    height: 500px;
+    margin: 25px 0px;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.author {
+    position: absolute;
+    background-color: var(--color-primary);
+    color: #111;
+    padding: 5px 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
